@@ -1,7 +1,8 @@
 # Lombardy Ski Tourism Database Project
 
 ## Overview
-Documentary database of restaurants and hotels near Lombardy ski resorts, utilizing web scraping and API integration.
+This project lays the groundwork for a comprehensive ski tourism application in Lombardy.
+The aim is to create a documentary database of restaurants and hotels near Lombardy ski resorts, using web scraping and API integration.
 
 ## Methodology
 1. **Data Acquisition**: TripAdvisor, The Fork, Google, Booking.com (web scraping), Lombardy Open Data APIs
@@ -24,20 +25,20 @@ Documentary database of restaurants and hotels near Lombardy ski resorts, utiliz
 1. Acquisition folder files (non-concurrent execution)
 2. Cleaning folder files (concurrent execution possible)
 3. Integration folder:
-   
-   a. hotels_reference.ipynb
-   
-   b. hotel_to_json.ipynb
-   
-   c. merging_booking_API.ipynb, merger_restaurants.ipynb
-   
-5. pymongo.ipynb
+   - hotels_reference.ipynb
+   - hotel_to_json.ipynb
+   - merging_booking_API.ipynb, merger_restaurants.ipynb
+4. pymongo.ipynb
 
-> **Note**: Scraping results may vary due to execution timing.
+> Note: Scraping results may vary due to execution timing.
 
 ---
 
 <div align="center">
 <i>Project carried out for the Data Management course of the academic year 2023-2024.<br>
 Master of Science in Data Science course</i>
+</div>
+
+<div align="center">
+<b>Authors</b>: Giorgia Prina, Enrico Mannarino, Simone Massardi
 </div>
