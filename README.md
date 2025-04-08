@@ -29,6 +29,11 @@ Documentary database of restaurants and hotels near Lombardy ski resorts, utiliz
    c. merging_booking_API.ipynb, merger_restaurants.ipynb
 4. pymongo.ipynb
 
-Note: Scraping results may vary due to execution timing.
+> **Note**: Scraping results may vary due to execution timing.
 
-This project lays the groundwork for a comprehensive ski tourism application in Lombardy.
+---
+
+<div align="center">
+<i>Project carried out for the Data Management course of the academic year 2023-2024.<br>
+Master of Science in Data Science course</i>
+</div>
