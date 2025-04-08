@@ -1,44 +1,44 @@
-# Lombardy Ski Tourism Database Project
+# Lombardy Ski Tourism Database
+
+A comprehensive documentary database of hospitality services near ski resorts in Lombardy.
 
 ## Overview
-This project lays the groundwork for a comprehensive ski tourism application in Lombardy.
-The aim is to create a documentary database of restaurants and hotels near Lombardy ski resorts, using web scraping and API integration.
+
+This project creates the foundation for a ski tourism application, collecting and organizing data about restaurants and hotels in proximity to Lombardy's ski destinations through web scraping and API integration.
 
 ## Methodology
-1. **Data Acquisition**: TripAdvisor, The Fork, Google, Booking.com (web scraping), Lombardy Open Data APIs
-2. **Data Cleaning**: Deduplication, address standardization, null handling
-3. **Integration**: Cross-source merging, data enrichment
-4. **Storage**: MongoDB (schema-less approach)
-5. **Quality Assessment**: Accuracy (63% restaurants, 50% hotels), completeness, consistency
 
-## Key Features
-- Coverage: 44 Lombardy municipalities
-- Data: Geo-location, contact info, ratings, reviews
-- Sample queries provided for data extraction
+**Data Acquisition**  
+TripAdvisor • The Fork • Google • Booking.com • Lombardy Open Data APIs
 
-## Challenges & Future Work
-- Implementing automatic updates
-- Real-time availability tracking
-- Geospatial visualization integration
+**Data Processing**  
+• Deduplication and standardization  
+• Cross-source integration  
+• MongoDB storage with schema-less approach
 
-## Execution Guide
-1. Acquisition folder files (non-concurrent execution)
-2. Cleaning folder files (concurrent execution possible)
-3. Integration folder:
-   - hotels_reference.ipynb
-   - hotel_to_json.ipynb
-   - merging_booking_API.ipynb, merger_restaurants.ipynb
+## Features
+
+The database covers 44 Lombardy municipalities with detailed information including geo-location data, contact information, ratings, and customer reviews.
+
+## Future Development
+
+• Automatic data updates  
+• Real-time availability tracking  
+• Integrated geospatial visualization
+
+## Implementation
+
+Execute in sequence:
+1. Acquisition folder files
+2. Cleaning folder files
+3. Integration folder notebooks
 4. pymongo.ipynb
 
-> Note: Scraping results may vary due to execution timing.
+Results may vary depending on execution timing.
 
 ---
 
-<div align="center">
-<i>Project carried out for the Data Management course of the academic year 2023-2024.<br>
-Master of Science in Data Science course</i>
-</div>
+Project by Giorgia Prina, Enrico Mannarino, and Simone Massardi
 
-<div align="center">
-<b>Authors</b>: Giorgia Prina, Enrico Mannarino, Simone Massardi
-</div>
+*Data Management course project, 2023-2024*  
+*Master Degree in Data Science - University of Milano-Bicocca*
