@@ -38,5 +38,5 @@ Execute in sequence:
 
 Project by Giorgia Prina, Alessandro Bianchi and Simone Massardi
 
-*Data Management course project, 2023-2024*  
+*Data Management course project, 2022-2023*  
 *Master Degree in Data Science - University of Milano-Bicocca*
