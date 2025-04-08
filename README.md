@@ -34,11 +34,9 @@ Execute in sequence:
 3. Integration folder notebooks
 4. pymongo.ipynb
 
-Results may vary depending on execution timing.
-
 ---
 
-Project by Giorgia Prina, Enrico Mannarino, and Simone Massardi
+Project by Giorgia Prina, Alessandro Bianchi and Simone Massardi
 
 *Data Management course project, 2023-2024*  
 *Master Degree in Data Science - University of Milano-Bicocca*
