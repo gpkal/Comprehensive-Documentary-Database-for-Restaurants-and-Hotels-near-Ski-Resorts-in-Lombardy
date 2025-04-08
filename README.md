@@ -24,10 +24,14 @@ Documentary database of restaurants and hotels near Lombardy ski resorts, utiliz
 1. Acquisition folder files (non-concurrent execution)
 2. Cleaning folder files (concurrent execution possible)
 3. Integration folder:
+   
    a. hotels_reference.ipynb
+   
    b. hotel_to_json.ipynb
+   
    c. merging_booking_API.ipynb, merger_restaurants.ipynb
-4. pymongo.ipynb
+   
+5. pymongo.ipynb
 
 > **Note**: Scraping results may vary due to execution timing.
 
